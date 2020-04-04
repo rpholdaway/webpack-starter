@@ -1,14 +1,13 @@
 {
-  "name": "webpack-starter",
+  "name": "rph-webpack-boilerplate",
   "version": "1.0.0",
-  "description": "A light foundation for your next frontend project based on webpack.",
+  "description": "Extension of the webpack starter repo.",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --config webpack/webpack.config.prod.js --colors",
     "start": "webpack-dev-server --open --config webpack/webpack.config.dev.js"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wbkd/webpack-starter.git"
+    "type": "git"
   },
   "keywords": [
     "webpack",
@@ -18,11 +17,8 @@
     "javascript",
     "webdev"
   ],
-  "author": "webkid.io",
+  "author": "rpholdaway",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/wbkd/webpack-starter/issues"
-  },
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
@@ -34,7 +30,11 @@
     "cross-env": "^7.0.2",
     "css-loader": "^3.4.2",
     "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
     "eslint-loader": "^3.0.3",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
     "file-loader": "^5.1.0",
     "html-webpack-plugin": "^4.0.0-beta.11",
     "mini-css-extract-plugin": "^0.9.0",
